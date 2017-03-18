@@ -1,0 +1,28 @@
+/*
+Aufgabe: Aufgabe 1
+Name: Annkathrin Müller
+Matrikelnr.: 254868
+Datum: 18.03.2017
+
+Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. 
+Er wurde nicht kopiert und auch nicht diktiert. */
+
+html {
+	margin: 0.5em;
+	}
+
+body {
+	background-color: #b8e7f7;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 0.7em;
+}
+
+h1 {
+	margin: 1.5em;
+	color: #8C8B89;
+	font-size: 1.3em;
+}
+
+h2 {
+	font-size: 1em;
+}
