@@ -1,32 +1,274 @@
-/*
-Aufgabe: Aufgabe 1
-Name: Annkathrin Müller
-Matrikelnr.: 254868
-Datum: 18.03.2017
+//*Einbettung font*/
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
-Hiermit versichere ich, dass ich diesen Code selbst geschrieben habe. 
-Er wurde nicht kopiert und auch nicht diktiert. */
-
+/*html*/
 html {
-	margin: 0.5em;
-	background: #eeeee;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color:#264269;
+	}
+/*body*/
+body {
+	background-color:#FFFFFF;
+	margin: 2%;
 	}
 
-body {
+/*Ãœberschrift*/
+
+h4 {
+	color:#264269;
+	font-size:1em;
+	letter-spacing:0.3em;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+/*Navigation Header*/
+#nav-header {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1em;
+	font-size:1.4em;
+	color:#264269;
+	list-style-type:none;
+	text-decoration:none;
+	padding:0.5em 5em 0.5em 5em;
+	word-spacing: 3em;
+	display: block;
+	position:fixed;
+	background-color:#DBDBDB;
+	width: 100%;
+	z-index: 1000;
+	}
+header nav li {
+	display:inline-block;
 }
 
+header nav li:hover{
+	text-decoration:underline;
+	}
+	
+/*Hintergrund Bild*/
+#Hintergrund {
+	float:left;
+	width: 70%;
+	height: 650px;
+	margin-top: 7%;
+	}
+/*Box Home*/
+#BoxName {
+	float:left;
+	background-color:#DBDBDB;
+	margin-top:7%;
+	width:30%;
+	height:650px;
+	}
+
+/*Text HomeSeite*/
 h1 {
-	margin: 1.5em;
-	color: #8C8B89;
-	font-size: 2em;
-}
-
-h2 {
+	color:#264269;
+	font-size:2.5em;
+	letter-spacing:0.5em;
+	font-family:"Gloria Hallelujah", cursive;
+	margin-right: 2%;
+	text-align: center;
+	}
+#ZitatText {
+	color:#9A719F;
 	font-size: 1.5em;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing:0.5em;
+	padding-top: 20%;
+}
+#ZitatAutor {
+	color:#9A719F;
+	font-size: 0.7em;
+	text-align: center;
+	letter-spacing:0.5em;
+	}
+
+/*About ME Bereich*/
+
+#Abstandspezial {
+	padding-top: 55%;
+	}
+#AboutMeTitle{
+	padding: 0em 0em 2em 3em; 
+	color:#264269;
+	font-size:1.7em;
+	letter-spacing:0.5em;
+	font-family:Helvetica, Arial, sans-serif;
+	}
+#Portrait {
+	float:left;
+	margin-left: 20%;
+	z-index: 700;
+}
+#AboutMeText {
+	margin-top: 7em;
+	background-color:#DBDBDB;
+	text-align:left;
+	width:40em;
+	height:20em;
+	padding: 2em 1em 1em 7em;
+	margin-left: 35%;
+	z-index: 900;
+}
+/*Skills Bereich*/
+/*.skills {
+	color:#264269;
+	font-size: 1.5em;
+	text-align:left;
+	line-height: 4em;
+	padding-left: 4em;
+}	*/
+	
+/*Work Bereich*/
+
+.Abstand {
+	padding-top: 20%;
+	}
+
+#WorkTitle{
+	padding: 5em 0em 4em 3em; 
+	color:#264269;
+	font-size:1.7em;
+	letter-spacing:0.5em;
+	font-family:Helvetica, Arial, sans-serif;
+	}
+
+.WorkIcons {
+	margin-left:2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	display:inline-block;
+	}
+
+.WorkIcons:hover {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
 }
 
-hr {
-	margin: 1em 0 1em 0;
+/*Contact Bereich*/
+
+#ContactTitle{
+	padding: 5em 0em 4em 3em; 
+	color:#264269;
+	font-size:1.7em;
+	letter-spacing:0.5em;
+	font-family:Helvetica, Arial, sans-serif;
+	}
+	
+.ContactIcons {
+	display:inline-block;
+	margin-left:5%;
+	padding-left: 7%;
+	padding-right: 7%;
+	}
+
+.ContactIcons:hover {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+/*Film*/
+.Video {
+	float:left;
+	padding-top: 10%;
+	width:45%;
+	height:30%;
+}
+
+/*Fotografie*/
+
+/* Slideshow container */
+.slideshow-container {
+	padding-top:10%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text  */
+.numbertext {
+  color: #DBDBDB;
+  font-size: 1em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+	
+/*Footer*/
+footer div {
+	float:left;
+	padding-top: 20%;
+}
+.Source {
+	float:right;
+	padding-top: 1%;
+	margin-left:70%;
+	padding-bottom: 2%;
+	font-size:0,7em;
 }
