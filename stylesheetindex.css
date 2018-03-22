@@ -9,7 +9,6 @@ html {
 	}
 /*body*/
 body {
-	background-color:#A9D0F5;
 	margin: 2%;
 	}
 
@@ -44,4 +43,9 @@ header nav li {
 header nav li:hover{
 	text-decoration:underline;
 	}
+/*Main*/
+main {
+	background-color: #0431B4;
+	margin: 4%;
+}
 	
