@@ -12,14 +12,6 @@ body {
 	margin: 2%;
 	}
 
-/*Überschrift*/
-
-h1 {
-	color:#B40486;
-	font-size:1em;
-	letter-spacing:0.3em;
-	font-family:Helvetica, Arial, sans-serif;
-}
 
 /*Navigation Header*/
 #nav-header {
@@ -44,6 +36,14 @@ header nav li:hover{
 	text-decoration:underline;
 	}
 /*Main*/
+
+h1 {
+	color:#B40486;
+	font-size:1em;
+	letter-spacing:0.3em;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
 main {
 	background-color: #0431B4;
 	margin: 4%;
